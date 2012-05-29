@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bumper_black" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bumper_black"
+            android:onClick="ivBumperChanged"
+            android:src="@drawable/bumper_black" />
+        
+        <TextView
+            android:id="@+id/tvColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bumper_color" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bumper_color"
+            android:onClick="ivBumperChanged"
+            android:src="@drawable/bumper_color" />
+
+        <TextView
+            android:id="@+id/tvDepth"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bumper_depth" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bumper_depth"
+            android:onClick="ivBumperChanged"
+            android:src="@drawable/bumper_depth" />
+
+        <TextView
+            android:id="@+id/tvAvgHighDepthColumns"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bumper_avg_high_depth_columns" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bumper_avg_high_depth_columns"
+            android:onClick="ivBumperChanged"
+            android:src="@drawable/bumper_avg_high_depth_columns" />
+
+        <TextView
+            android:id="@+id/tvDepthMaskOnColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bumper_depth_mask_on_color" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bumper_depth_mask_on_color"
+            android:onClick="ivBumperChanged"
+            android:src="@drawable/bumper_depth_mask_on_color" />
+        
+        <TextView
+            android:id="@+id/tvMaskOnColor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bumper_mask_on_color" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/bumper_mask_on_color"
+            android:onClick="ivBumperChanged"
+            android:src="@drawable/bumper_mask_on_color" />
+
+    </LinearLayout>
+
+</ScrollView>

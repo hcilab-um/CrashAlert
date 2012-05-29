@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ca.umanitoba.cs.hci.phonebumper.Bumper
+        android:id="@+id/iBumper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/bumper_image_description"
+        android:src="@drawable/bumper_color" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bomb_count" />
+
+        <TextView
+            android:id="@+id/tvBombCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/bomb_count_zero" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/explosion_count" />
+
+        <TextView
+            android:id="@+id/tvExplosionCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/explosion_count_zero" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb1"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb2"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb3"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb4"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb5"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb6"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb7"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb8"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb9"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb10"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb11"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb12"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb13"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb14"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb15"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <ca.umanitoba.cs.hci.phonebumper.ExploitingBomb
+            android:id="@+id/bomb16"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="bStartClicked"
+        android:text="@string/start_button_start" />
+
+</LinearLayout>

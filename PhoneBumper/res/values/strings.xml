@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BumpAlert</string>
+    <string name="bumper_image_description">Processed image to avoid bumping into someone else</string>
+    <string name="task_text">This text is to be re-typed in the space below</string>
+    <string name="task_text_instructions">Please type the text from above in this box</string>
+    <string name="start_button_start">Start</string>
+    <string name="start_button_stop">Stop</string>
+    <string name="remote_connection_data">E0:B9:A5:D3:66:BE</string>
+    <string name="remote_service_uuid">A0000000-A000-A000-A000-A00000000000</string>
+    
+	<string name="bomb_count">Bombs Difused: </string>
+	<string name="bomb_count_zero">0</string>
+	<string name="explosion_count">Explosions Count: </string>
+	<string name="explosion_count_zero">0</string>
+    
+    <string name="menu_settings">Settings</string>
+    <string name="menu_connect">Connect to Server</string>
+    <string name="menu_disconnect">Disconnect</string>    
+    
+    <string name="bumper_black">Black</string>
+    <string name="bumper_color">Color</string>
+    <string name="bumper_depth">Depth</string>
+    <string name="bumper_avg_high_depth_columns">Limited Depth in Columns (LCD) by Avg</string>
+    <string name="bumper_depth_mask_on_color">Depth Mask On Color</string>
+    <string name="bumper_mask_on_color">LDC Max Value - Mask On Color</string>
+    
+    <string name="settings_title">BumpAlert > Settings</string>
+    <string name="settings_bumper_type">Bumper Type: </string>
+    <string name="settings_screen_position">Screen Position: </string>
+    <string name="settings_invert_image">Invert Image: </string>
+    <string name="settings_sliding_window_management">Sliding Window - </string>
+    <string name="settings_screen_position_value">Top</string>
+    <string name="settings_invert_image_value">Inverted</string>
+    <string name="settings_brightness">Brightness:</string>
+    
+    <string name="select_bumper_title">BumperAlert > Settings > Bumper Type</string>
+    
+    
+</resources>

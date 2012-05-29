@@ -1,0 +1,10 @@
+﻿<Window x:Class="KinectWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Kinect in WPF" Height="580" Width="700">
+    <Grid>
+        <Image Name="imgRaw" Width="640" Height="480" />
+        <Image Name="imgDepth" Width="640" Height="480" />
+        <Button Name="btnToggleVisibility" Content="Show raw image" Width="200" Height="23" VerticalAlignment="Bottom" Margin="0,0,0,5" Click="BtnToggleVisibility_Click" />
+    </Grid>
+</Window>

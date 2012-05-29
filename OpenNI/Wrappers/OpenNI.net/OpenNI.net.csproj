@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BAA03485-E635-4EBE-AC5C-1966782C977F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenNI.net</RootNamespace>
+    <AssemblyName>OpenNI.net</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AlternativeViewPointCapability.cs" />
+    <Compile Include="AntiFlickerCapability.cs" />
+    <Compile Include="AudioGenerator.cs" />
+    <Compile Include="AudioMetaData.cs" />
+    <Compile Include="Codec.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="CroppingCapability.cs" />
+    <Compile Include="DepthGenerator.cs" />
+    <Compile Include="DepthMetaData.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="DeviceIdentificationCapability.cs" />
+    <Compile Include="EnumerationErrors.cs" />
+    <Compile Include="FrameSyncCapability.cs" />
+    <Compile Include="GeneralIntCapability.cs" />
+    <Compile Include="Generator.cs" />
+    <Compile Include="GestureGenerator.cs" />
+    <Compile Include="HandsGenerator.cs" />
+    <Compile Include="HandTouchingFOVEdgeCapability.cs" />
+    <Compile Include="ImageGenerator.cs" />
+    <Compile Include="ImageMetaData.cs" />
+    <Compile Include="IMapData.cs" />
+    <Compile Include="IRGenerator.cs" />
+    <Compile Include="IRMetaData.cs" />
+    <Compile Include="Log.cs" />
+    <Compile Include="MapData.cs" />
+    <Compile Include="MapGenerator.cs" />
+    <Compile Include="MapMetaData.cs" />
+    <Compile Include="MirrorCapability.cs" />
+    <Compile Include="MockAudioGenerator.cs" />
+    <Compile Include="MockDepthGenerator.cs" />
+    <Compile Include="MockImageGenerator.cs" />
+    <Compile Include="MockIRGenerator.cs" />
+    <Compile Include="NodeInfo.cs" />
+    <Compile Include="NodeInfoList.cs" />
+    <Compile Include="OpenNIImporter.cs" />
+    <Compile Include="OutputMetaData.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PoseDetectionCapability.cs" />
+    <Compile Include="ProductionNode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Query.cs" />
+    <Compile Include="Recorder.cs" />
+    <Compile Include="SceneAnalyzer.cs" />
+    <Compile Include="SceneMetaData.cs" />
+    <Compile Include="ScriptNode.cs" />
+    <Compile Include="SkeletonCapability.cs" />
+    <Compile Include="StateChangedEvent.cs" />
+    <Compile Include="UserGenerator.cs" />
+    <Compile Include="UserPositionCapability.cs" />
+    <Compile Include="Wrappers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PublisherPolicy.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
