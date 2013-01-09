@@ -39,13 +39,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Emgu.CV">
-      <HintPath>..\..\..\..\..\Program Files (x86)\EmguCV\emgucv-windows-x86 2.3.0.1416\bin\Emgu.CV.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\EmguCV\emgucv-windows-x86 2.3.0.1416\bin\Emgu.CV.dll</HintPath>
     </Reference>
     <Reference Include="Emgu.CV.UI">
-      <HintPath>..\..\..\..\..\Program Files (x86)\EmguCV\emgucv-windows-x86 2.3.0.1416\bin\Emgu.CV.UI.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\EmguCV\emgucv-windows-x86 2.3.0.1416\bin\Emgu.CV.UI.dll</HintPath>
     </Reference>
     <Reference Include="Emgu.Util">
-      <HintPath>..\..\..\..\..\Program Files (x86)\EmguCV\emgucv-windows-x86 2.3.0.1416\bin\Emgu.Util.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\EmguCV\emgucv-windows-x86 2.3.0.1416\bin\Emgu.Util.dll</HintPath>
     </Reference>
     <Reference Include="InTheHand.Net.Personal, Version=3.3.909.0, Culture=neutral, PublicKeyToken=ea38caa273134499, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
