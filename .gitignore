@@ -4,6 +4,7 @@ obj
 
 # mstest test results
 TestResults
+SharedLibs/x86
 
 # Mac specifics
 .DS_Store

@@ -9,7 +9,7 @@ namespace KinectWPF
   {
     System.Windows.Media.ImageSource RawImageSource { get; }
     System.Windows.Media.ImageSource DepthImageSource { get; }
-    System.Windows.Media.ImageSource RawDepthImageSource { get; }
+    System.Windows.Media.ImageSource RangeDepthImageSource { get; }
 
     int VisualAlertDistance { get; set; }
 

@@ -98,7 +98,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="SamplesConfig.xml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
   <ItemGroup>

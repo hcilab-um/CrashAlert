@@ -143,9 +143,9 @@ namespace KinectWPF
     }
 
     /// <summary>
-    /// Returns the depth camera's bitmap source.
+    /// Returns the depth camera's bitmap source to a certain depth
     /// </summary>
-    public ImageSource RawDepthImageSource
+    public ImageSource RangeDepthImageSource
     {
       get
       {
