@@ -655,3 +655,186 @@ org.eclipse.swt.SWTException: Device is disposed
 	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:709)
 	at com.android.ide.eclipse.adt.AdtPlugin$7.run(AdtPlugin.java:1478)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2013-08-17 12:46:16.817 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-08-17 12:46:19.390
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-17 12:46:29.022
+!MESSAGE NLS missing message: Constants_WebResources_3 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-17 12:46:29.029
+!MESSAGE NLS missing message: Constants_WebResources_4 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-17 12:46:29.029
+!MESSAGE NLS missing message: Constants_WebResources_5 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-17 12:46:29.030
+!MESSAGE NLS missing message: Constants_WebResources_3_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-17 12:46:29.031
+!MESSAGE NLS missing message: Constants_WebResources_4_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-17 12:46:29.031
+!MESSAGE NLS missing message: Constants_WebResources_5_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.ui 4 4 2013-08-17 12:46:31.538
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-08-19 09:25:01.718 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-08-19 09:25:04.265
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 09:25:12.550
+!MESSAGE NLS missing message: Constants_WebResources_3 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 09:25:12.557
+!MESSAGE NLS missing message: Constants_WebResources_4 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 09:25:12.558
+!MESSAGE NLS missing message: Constants_WebResources_5 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 09:25:12.558
+!MESSAGE NLS missing message: Constants_WebResources_3_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 09:25:12.559
+!MESSAGE NLS missing message: Constants_WebResources_4_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 09:25:12.560
+!MESSAGE NLS missing message: Constants_WebResources_5_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.ui 4 4 2013-08-19 09:25:19.778
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-08-19 09:25:21.873
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.android.ide.eclipse.adt.internal.sdk.Sdk$5
+!SESSION 2013-08-19 17:56:02.198 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 17:56:15.415
+!MESSAGE NLS missing message: Constants_WebResources_3 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 17:56:15.428
+!MESSAGE NLS missing message: Constants_WebResources_4 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 17:56:15.430
+!MESSAGE NLS missing message: Constants_WebResources_5 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 17:56:15.431
+!MESSAGE NLS missing message: Constants_WebResources_3_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 17:56:15.432
+!MESSAGE NLS missing message: Constants_WebResources_4_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-19 17:56:15.433
+!MESSAGE NLS missing message: Constants_WebResources_5_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.ui 4 4 2013-08-19 17:56:23.971
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-08-19 17:56:25.207
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.android.ide.eclipse.adt.internal.sdk.Sdk$5
+!SESSION 2013-08-21 12:54:24.180 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-08-21 12:54:26.835
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-21 12:54:35.713
+!MESSAGE NLS missing message: Constants_WebResources_3 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-21 12:54:35.731
+!MESSAGE NLS missing message: Constants_WebResources_4 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-21 12:54:35.732
+!MESSAGE NLS missing message: Constants_WebResources_5 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-21 12:54:35.733
+!MESSAGE NLS missing message: Constants_WebResources_3_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-21 12:54:35.734
+!MESSAGE NLS missing message: Constants_WebResources_4_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-21 12:54:35.736
+!MESSAGE NLS missing message: Constants_WebResources_5_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.ui 4 4 2013-08-21 12:54:37.267
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.core.jobs 2 2 2013-08-21 12:54:38.346
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.android.ide.eclipse.adt.AdtPlugin$7
+!SESSION 2013-08-26 11:07:26.515 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-26 11:07:42.677
+!MESSAGE NLS missing message: Constants_WebResources_3 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-26 11:07:42.689
+!MESSAGE NLS missing message: Constants_WebResources_4 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-26 11:07:42.714
+!MESSAGE NLS missing message: Constants_WebResources_5 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-26 11:07:42.715
+!MESSAGE NLS missing message: Constants_WebResources_3_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-26 11:07:42.718
+!MESSAGE NLS missing message: Constants_WebResources_4_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-26 11:07:42.718
+!MESSAGE NLS missing message: Constants_WebResources_5_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.ui 4 4 2013-08-26 11:07:56.740
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2013-08-29 11:18:39.089 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_03
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-08-29 11:18:41.680
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-29 11:18:50.008
+!MESSAGE NLS missing message: Constants_WebResources_3 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-29 11:18:50.017
+!MESSAGE NLS missing message: Constants_WebResources_4 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-29 11:18:50.018
+!MESSAGE NLS missing message: Constants_WebResources_5 in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-29 11:18:50.019
+!MESSAGE NLS missing message: Constants_WebResources_3_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-29 11:18:50.024
+!MESSAGE NLS missing message: Constants_WebResources_4_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.osgi 2 1 2013-08-29 11:18:50.026
+!MESSAGE NLS missing message: Constants_WebResources_5_url in: com.oracle.jme.toolkit.eclipse.welcomepage.ui.messages
+
+!ENTRY org.eclipse.ui 4 4 2013-08-29 12:52:05.132
+!MESSAGE Invalid preference page path: XML Syntax
