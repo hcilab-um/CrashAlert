@@ -1,4 +1,0 @@
-INDEX VERSION 1.126+C:\Users\jhincapie\Desktop\Projects\CrashAlert\.metadata\.plugins\org.eclipse.jdt.core
-797039448.index
-3352491446.index
-2751382638.index
